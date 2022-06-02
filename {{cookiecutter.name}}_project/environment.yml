@@ -1,0 +1,17 @@
+name: {{cookiecutter.name }}
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - pip
+  - notebook
+  - scikit-learn
+  - scipy
+  - python=={{cookiecutter.python_version}}
+  - numpy
+  - ipython
+  - seaborn
+  - pandas
+  - jupyter
+  - pip:
+      - -e ./{{cookiecutter.name}}/

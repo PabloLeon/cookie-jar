@@ -1,0 +1,1 @@
+print("setting up {{cookiecutter.name}} ...")
